@@ -1,7 +1,5 @@
 # Ss_Todo
 
-![Ss_Todo Logo](https://i.gifer.com/OnFv.gif)
-
 ## About
 
 Welcome to Ss_Todo, your go-to task management application! 🚀 Stay organized, boost productivity, and accomplish your goals with ease.
