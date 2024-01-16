@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <title>Todo-List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="app">
+      <header class="app-header">
+        <div class="app-header-logo">
+          <div class="logo">
+            <span
+              class="logo-icon"
+              style="background-color: #e3ffa8; padding: 5px; color: black"
+            >
+              SS
+            </span>
+            <!-- <h1 class="logo-title">SS</h1> -->
+          </div>
+        </div>
+        <div class="app-header-navigation">
+          <div class="tabs">
+            <a href="#" class="active"> Todo List </a>
+          </div>
+        </div>
+        <div class="app-header-actions">
+          <button class="user-profile">
+            <span>
+              <img
+                class="Slogo"
+                src="https://t3.ftcdn.net/jpg/03/81/30/16/360_F_381301638_mo8XtnvD4VtKWjNITYhwL3ITRxF4ldaO.jpg"
+              />
+            </span>
+          </button>
+        </div>
+      </header>
+      <div class="app-body">
+        <div class="app-body-navigation">
+          <nav class="navigation">
+            <a href="#">
+              <i class="ph-swap"></i>
+              <span>Todo-List</span>
+            </a>
+          </nav>
+          <footer class="footer">
+            <h1>Todo List Ss<small>©</small></h1>
+          </footer>
+        </div>
+        <div class="app-body-main-content">
+          <section class="service-section">
+            <h2>Todo List</h2>
+            <div class="service-section-header">
+              <div id="newtask">
+                <div class="search-field">
+                  <i class="ph-magnifying-glass"></i>
+                  <input type="text" placeholder="Add Task" id="input" />
+                </div>
+              </div>
+
+              <button class="flat-button" id="push">Add</button>
+            </div>
+            <div class="mobile-only">
+              <div id="newtask">
+                <div class="search-field">
+                  <i class="ph-magnifying-glass"></i>
+                  <input type="text" placeholder="Add Task" id="input" />
+                </div>
+              </div>
+
+              <button class="flat-button" id="push">Add</button>
+            </div>
+
+            <div class="tiles" id="tasks"></div>
+            <div class="service-section-footer">
+              <p>
+                It's a list of tasks you need to complete or things that you
+                want to do...
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
